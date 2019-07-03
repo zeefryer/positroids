@@ -8,7 +8,9 @@ For the code used to obtain the results on 2,6 Wilson loop diagrams (arXiv:1803.
 
 
 ### To do
-Right now this is just a collection of functions, written as and when I needed that particular thing for a computation. As I learn about OOP, I'm planning to rewrite this so that each positroid cell is an instance of a Positroid class and holds all the attributes of that cell.
+Right now this is just a collection of functions, written as and when I needed that particular thing for a computation, and written long before I knew anything about OOP or efficient data structures. One day eventually I might clean it all up and produce a lean mean object-oriented positroid machine, but don't hold your breath. 
+
+On the plus side, the existing code has been extensively tested on examples, so any bugs should be of the big obvious crashing kind rather than the subtle "just quietly gives the wrong answer" kind.
 
 
 ### To use
