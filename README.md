@@ -1,16 +1,19 @@
 # Positroids
 Python code for computation with positroids, totally nonnegative matrices, Wilson loop diagrams, and H-primes.
 
-Uses Python 2.7 and Sympy 1+. Not tested on Python 3.
-Note: Sage uses Python 2.6 and is not compatible. To get the data into Sage (e.g. for homology computations), you need to export the data into a text file and then import that into Sage. See 2_6_data.py for examples.
+Uses Python 2.7 and Sympy 1+. Definitely not Python 3 compatible.
 
-For the code used to obtain the results on 2,6 Wilson loop diagrams (arXiv:1803.00958), see 2_6_data.py.
+Note: When we used this code for our paper on 2,6 Wilson loop diagrams, we were using Sage for the homology computations which was still on Python 2.6 and wasn't directly compatible. To get the data into Sage (e.g. for homology computations), you need to export the data into a text file and then import that into Sage. See 2_6_data.py for examples.
+
+For the code used to obtain [the results on 2,6 Wilson loop diagrams](https://arxiv.org/abs/1803.00958), see `2_6_data.py`.
 
 
-### To do
-Right now this is just a collection of functions, written as and when I needed that particular thing for a computation, and written long before I knew anything about OOP or efficient data structures. One day eventually I might clean it all up and produce a lean mean object-oriented positroid machine, but don't hold your breath. 
+### Caveats
+This code was written many years ago, long before I learned to write good code and back when the prevailing wisdom was "sure, Python 3 exists but it's not stable yet, just stick to Python 2.7". 
 
-On the plus side, the existing code has been extensively tested on examples, so any bugs should be of the big obvious crashing kind rather than the subtle "just quietly gives the wrong answer" kind.
+The code is preserved here both because it might be less annoying for people doing computations to use this code than write their own, and also as a companion to [arXiv:1803.00958](https://arxiv.org/abs/1803.00958) which used this code to obtain many of the results.
+
+On the plus side, these functions have by this point been extensively tested on examples, so any bugs should be of the big obvious crashing kind rather than the subtle "just quietly gives the wrong answer" kind.
 
 
 ### To use
